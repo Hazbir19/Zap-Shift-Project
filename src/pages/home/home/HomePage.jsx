@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import Banner from "../Banner/Banner";
 
 function HomePage() {
   return (
     <div>
-      This is home page
+      {/*---Banner Section----- */}
+      <div>
+        <Banner />
+      </div>
+      {/*---How its work Section----- */}
+      
     </div>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
