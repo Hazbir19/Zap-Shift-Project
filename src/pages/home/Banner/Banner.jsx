@@ -7,7 +7,7 @@ import { Carousel } from "react-responsive-carousel";
 import { FaSquareArrowUpRight } from "react-icons/fa6";
 const Banner = () => {
   return (
-    <div className="my-8 px-8">
+    <div className="my-8 px-8 relative">
       <Carousel autoPlay={true} infiniteLoop={true}>
         <div>
           <img src={BannerImage1} />
@@ -19,17 +19,22 @@ const Banner = () => {
           <img src={BannerImage3} />
         </div>
       </Carousel>
-      <div>
+      <div className="flex space-x-2 absolute top-[27rem] ml-12">
         {/* Button */}
-        <div className="flex bg-primary p-1.5 rounded-2xl space-x-1.5">
-          <button type="button" className="">
+        <div className="flex bg-primary p-1.5 rounded-2xl space-x-1.5 w-40 items-center justify-center">
+          <button type="button" className="text-center text-sm ">
             Track Your Parcel
           </button>
           <FaSquareArrowUpRight />
         </div>
         <div>
           {/* icons  */}
-          <button type="button">Be A Rider</button>
+          <button
+            type="button"
+            className="border border-gray-200 rounded-2xl p-1.5 text-sm cursor-pointer"
+          >
+            Be A Rider
+          </button>
         </div>
       </div>
     </div>
