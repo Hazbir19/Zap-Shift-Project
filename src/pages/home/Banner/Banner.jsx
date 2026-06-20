@@ -19,10 +19,10 @@ const Banner = () => {
           <img src={BannerImage3} />
         </div>
       </Carousel>
-      <div className="flex space-x-2 absolute top-[27rem] ml-12">
+      <div className="flex space-x-2 absolute top-108 ml-12">
         {/* Button */}
         <div className="flex bg-primary p-1.5 rounded-2xl space-x-1.5 w-40 items-center justify-center">
-          <button type="button" className="text-center text-sm ">
+          <button type="button" className="text-center text-sm cursor-pointer">
             Track Your Parcel
           </button>
           <FaSquareArrowUpRight />
@@ -31,7 +31,7 @@ const Banner = () => {
           {/* icons  */}
           <button
             type="button"
-            className="border border-gray-200 rounded-2xl p-1.5 text-sm cursor-pointer"
+            className="border border-gray-200 rounded-lg p-2 text-sm cursor-pointer"
           >
             Be A Rider
           </button>
