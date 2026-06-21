@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../Banner/Banner";
 import Cards from "../../../Components/Cards/Cards";
 import bookingIcon from "../../../assets/bookingIcon.png";
+import serviceIcon from "../../../assets/service.png";
 import TitleBanner from "./../../../Components/titlebanner/TitleBanner";
 function HomePage() {
   return (
@@ -58,6 +59,17 @@ function HomePage() {
             tileClassName="text-xl text-green-900"
             description="From personal packages to business shipments — we deliver on time, every time."
             descripClassName="justify text-gray-500 mt-2"
+          />
+        </div>
+      </div>
+      {/* Our Service Section */}
+      <div className="bg-green-950">
+        <div className="">
+          <Cards
+            image={serviceIcon}
+            title="Express  & Standard Delivery"
+            tileClassName="text-white"
+            imageClassName="items-center justify-center"
           />
         </div>
       </div>
