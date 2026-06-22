@@ -18,11 +18,6 @@ const Cards = ({
         alt={title}
         className={`w-12 h-12 mb-4 ${imageClassName}`}
       />
-      {/* 
-      <div className={contentClassName}>
-        <h3 className="text-xl font-semibold mb-2">{title}</h3>
-        <p>{description}</p>
-      </div> */}
       <TitleBanner
         title={title}
         description={description}
