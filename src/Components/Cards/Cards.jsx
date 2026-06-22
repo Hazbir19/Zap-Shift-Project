@@ -12,7 +12,7 @@ const Cards = ({
   tileClassName = "",
 }) => {
   return (
-    <div className={`p-6 rounded-xl shadow-md ${className}`}>
+    <div className={`p-6 rounded-xl ${className}`}>
       <img
         src={image}
         alt={title}

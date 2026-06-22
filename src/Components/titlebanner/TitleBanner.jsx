@@ -8,7 +8,7 @@ const TitleBanner = ({
   ContentClassName = "",
 }) => {
   return (
-    <div className={` ${ContentClassName}`}>
+    <div className={`${ContentClassName}`}>
       <div>
         <h1 className={`text-bold ${tileClassName}`}>{title}</h1>
       </div>
