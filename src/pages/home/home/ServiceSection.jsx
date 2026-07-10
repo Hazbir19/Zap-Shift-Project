@@ -1,7 +1,7 @@
 import React from "react";
 import TitleBanner from "../../../Components/titlebanner/TitleBanner";
 import Cards from "../../../Components/Cards/Cards";
-import ServiceSection from "./ServiceSection";
+import serviceIcon from "../../../assets/service.png";
 const ServiceSection = () => {
   return (
     <div className="bg-green-950 p-12 rounded-3xl m-12">
